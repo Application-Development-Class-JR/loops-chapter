@@ -19,3 +19,10 @@
 
 p "Enter a number:"
 
+user_number = gets.chomp.to_i
+a = 1
+1.upto(10) do
+  p a * user_number
+  a = a + 1 
+end
+

@@ -14,3 +14,13 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+
+user_word = gets.chomp 
+totallength = user_word.length
+
+contador=1
+while contador <= totallength do
+  p contador
+  contador= contador + 1
+end
+p  user_word + " is #{totallength} letters long!"
